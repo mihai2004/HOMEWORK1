@@ -1,0 +1,227 @@
+body {
+  background: radial-gradient(#555555, #222);
+  background-size: 100vw 100vh;
+}
+
+.fan {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fan li {
+  padding: 2.5em;
+  width: 40em;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  -webkit-transform-origin: 90%;
+          transform-origin: 90%;
+  border-radius: 1em 60% 60% 1em;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+.fan li::before {
+  content: "";
+  display: block;
+  background-color: #222;
+  width: 1em;
+  height: 1em;
+  position: absolute;
+  right: 10%;
+  top: calc( 50% - 0.5em);
+  border-radius: 100%;
+}
+
+.fan li:nth-child(1) {
+  background-color: #420000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #232323;
+          box-shadow: 0 0 0.5em 0.25em #232323;
+  color: #9c9c9c, -5%;
+}
+
+.fan li:nth-child(2) {
+  background-color: #520000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #232323;
+          box-shadow: 0 0 0.5em 0.25em #232323;
+  color: #9c9c9c, -10%;
+}
+
+.fan li:nth-child(3) {
+  background-color: #610000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #242424;
+          box-shadow: 0 0 0.5em 0.25em #242424;
+  color: #9c9c9c, -15%;
+}
+
+.fan li:nth-child(4) {
+  background-color: #700000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #252525;
+          box-shadow: 0 0 0.5em 0.25em #252525;
+  color: #9c9c9c, -20%;
+}
+
+.fan li:nth-child(5) {
+  background-color: maroon;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #252525;
+          box-shadow: 0 0 0.5em 0.25em #252525;
+  color: #9c9c9c, -25%;
+}
+
+.fan li:nth-child(6) {
+  background-color: #8f0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #262626;
+          box-shadow: 0 0 0.5em 0.25em #262626;
+  color: #9c9c9c, -30%;
+}
+
+.fan li:nth-child(7) {
+  background-color: #9e0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #262626;
+          box-shadow: 0 0 0.5em 0.25em #262626;
+  color: #9c9c9c, -35%;
+}
+
+.fan li:nth-child(8) {
+  background-color: #ad0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #272727;
+          box-shadow: 0 0 0.5em 0.25em #272727;
+  color: #9c9c9c, -40%;
+}
+
+.fan li:nth-child(9) {
+  background-color: #bd0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #282828;
+          box-shadow: 0 0 0.5em 0.25em #282828;
+  color: #9c9c9c, -45%;
+}
+
+.fan li:nth-child(10) {
+  background-color: #cc0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #282828;
+          box-shadow: 0 0 0.5em 0.25em #282828;
+  color: #9c9c9c, -50%;
+}
+
+.fan li:nth-child(11) {
+  background-color: #db0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #292929;
+          box-shadow: 0 0 0.5em 0.25em #292929;
+  color: #9c9c9c, -55%;
+}
+
+.fan li:nth-child(12) {
+  background-color: #eb0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #2a2a2a;
+          box-shadow: 0 0 0.5em 0.25em #2a2a2a;
+  color: #9c9c9c, -60%;
+}
+
+.fan li:nth-child(13) {
+  background-color: #fa0000;
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-box-shadow: 0 0 0.5em 0.25em #2a2a2a;
+          box-shadow: 0 0 0.5em 0.25em #2a2a2a;
+  color: #9c9c9c, -65%;
+}
+
+.fan:hover li:nth-child(1) {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fan:hover li:nth-child(2) {
+  -webkit-transform: rotate(75deg);
+          transform: rotate(75deg);
+}
+
+.fan:hover li:nth-child(3) {
+  -webkit-transform: rotate(60deg);
+          transform: rotate(60deg);
+}
+
+.fan:hover li:nth-child(4) {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.fan:hover li:nth-child(5) {
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
+}
+
+.fan:hover li:nth-child(6) {
+  -webkit-transform: rotate(15deg);
+          transform: rotate(15deg);
+}
+
+.fan:hover li:nth-child(7) {
+  -webkit-transform: rotate(0deg);
+          transform: rotate(0deg);
+}
+
+.fan:hover li:nth-child(8) {
+  -webkit-transform: rotate(-15deg);
+          transform: rotate(-15deg);
+}
+
+.fan:hover li:nth-child(9) {
+  -webkit-transform: rotate(-30deg);
+          transform: rotate(-30deg);
+}
+
+.fan:hover li:nth-child(10) {
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+}
+
+.fan:hover li:nth-child(11) {
+  -webkit-transform: rotate(-60deg);
+          transform: rotate(-60deg);
+}
+
+.fan:hover li:nth-child(12) {
+  -webkit-transform: rotate(-75deg);
+          transform: rotate(-75deg);
+}
+
+.fan:hover li:nth-child(13) {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
+.fan:hover li h2, .fan:hover li p {
+  margin: 0;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */
