@@ -1,0 +1,82 @@
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+}
+
+
+.navbar {
+    position: fixed;
+    z-index: 1000;
+    background-color: white;
+    width: 100%;
+    color: black;
+    font-size: 0.5em;
+    
+
+    li {
+        display: inline-block;
+        list-style: none;
+        padding: 1.5em;
+        margin-left: 1.3em;
+        
+        
+        
+    }
+    a {
+        text-decoration: none;
+        color: black;
+        font-size: 25px;
+        color: black;
+        vertical-align: middle;
+        
+    }
+}
+
+.section {
+    width: auto;
+    height: 100vh;
+    // border: 5px solid red;
+    text-align: right;
+    color: white;
+    box-sizing: border-box;
+    padding: 5%;
+
+
+    > *{
+        position: relative;
+        z-index: 999;
+    }
+
+    h1 {
+        font-size: 5vh;
+    }
+
+    h2 {
+        text-align: left;
+    }
+    .title__apply {
+        text-align: center;
+    }
+
+    
+
+    &#presentation {
+        // background-color: rgba(165, 42, 42, 0.281);
+        .decoration {
+            width: 40vw;
+            height: 40vh;
+        }
+    }
+    &#reviews {
+        // background-color: rgba(255, 140, 0, 0.233);
+        
+      
+    }
+    &#apply {
+        // background-color: rgba(0, 128, 0, 0.349);
+        
+    }
+}

@@ -1,0 +1,52 @@
+.bg-image {
+  background-image: url(images/winter-landscape-636634_1920.jpg);
+  background-size: cover;
+}
+
+img {
+  position: absolute;
+  height: 6vh;
+  width: 6vw;
+  left: -1.5em;
+  top: 0.9em;
+}
+
+.tree-right {
+  background-image: url(images/Christmas-Fir-Tree-Snow-PNG.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  background-position: 1400px 0;
+}
+
+.arctic-fox {
+  width: 100px;
+  height: 100px;
+  background-image: url(images/Snow-Arctic-Fox-PNG-Transparent-Picture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 1250px;
+  bottom: 300px;
+}
+
+.arctic-fox2 {
+  width: 350px;
+  height: 250px;
+  background-image: url(images/Snow-Arctic-Fox-Transparent-PNG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 52%;
+  bottom: 170px;
+}
+
+.photos {
+  width: 500px;
+  height: 500px;
+  border: 3px solid red;
+}
+
+.title__apply {
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
